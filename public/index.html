@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>SIT 725 Practice 4</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+·   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+<body  >
+  <div>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper navbar">
+        <a href="#" class="brand-logo left"><img class="logo-image" src="images/background_image.jpeg"></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#">Sign in</a></li>
+   
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div>
+   <br>
+   <br> 
+    <h1 class="heading" align="center">Hello, welcome to SIT725 Week 4</h1>
+    <img class="center" align = "center" src="images/front end image.jpeg">
+  </div>
+ 
+  <div class="btn1">    
+    <a class="waves-effect waves-light btn click-me-button modal-trigger" href="#modal1" id="clickMeButton"
+      data-target="modal1"><i class="material-icons left">auto_fix_high</i>CLICK ME</a>
+  </div>
+  <div class="row">
+    <div class="col s12 m4">
+      <div class="small card">
+          <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="images/html.jpeg" height="180px">
+          </div>
+          <div class="card-content">
+            <h6 align="center">HTML</h6>
+          <span class="card-title activator blue-text text-darken-4" id="fontsize">Click Here to know more about the HTML</span>
+          
+          </div>
+          <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4"><u>About the HTML</u><i class="material-icons right">close</i></span>
+          <p>HTML is the standard markup language for Web pages.</p>
+           <p> With HTML you can create your own Website.</p> 
+            <p>HTML is easy to learn - You will enjoy it!</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="col s12 m4">
+      <div class="small card">
+          <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="images/css.jpeg" height="200px">
+          </div>
+          <div class="card-content">
+            <h6 align="center">CSS</h6>
+          <span class="card-title activator blue-text text-darken-4" id="fontsize">Click Here to know more about CSS</span>
+          </div>
+          <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4" ><u>About the CSS</u><i class="material-icons right">close</i></span>
+          <p>CSS is the language we use to style an HTML document.</p>
+
+           <p> CSS describes how HTML elements should be displayed.</p>
+            
+            <p>This tutorial will teach you CSS from basic to advanced.</p>
+          </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="small card">
+          <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="images/javascript.jpeg" height="180px">
+          </div>
+          <div class="card-content">
+            <h6 align="center">JavaScript</h6>
+          <span class="card-title  text-darken-4 activator blue-text" id="fontsize">Click here to know more about the javascript</span>
+          <!-- <p><a href="#">This is a link</a></p> -->
+          </div>
+          <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4"><u>About the JavaScript</u><i class="material-icons right">close</i></span>
+          <p>JavaScript is the world's most popular programming language.</p>
+            <p>JavaScript is the programming language of the Web.</p>
+            
+            <p>JavaScript is easy to learn.</p>
+            
+            <p>This tutorial will teach you JavaScript from basic to advanced.</p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="modal1" class="modal modal-fixed-footer">
+    <div class="row modal-content">
+        <form class="col s12">
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="title" type="text" class="validate" required>
+                    <label for="title">Title</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="subTitle" type="text" class="validate" required>
+                    <label for="subTitle">Color</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="image" type="text" class="validate" required>
+                    <label for="image">Path</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="description" type="text" class="validate" required>
+                    <label for="description">Description</label>
+                </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12 center-align">
+                  <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                      <i class="material-icons right">send</i>
+                  </button>
+              </div>
+          </div>
+        </form>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
